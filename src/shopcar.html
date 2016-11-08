@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link type="text/css" href="css/registerstyle.css" rel='stylesheet'/>
+	</head>
+	<body>
+		<script src="js/jquery-1.12.0.js"></script>
+		<script src="js/shopcar.js"></script>
+		<div class="login">
+			<a href="index.html"><img src="img/hr-wz.png"/></a>
+			<div>
+				<span>您好！欢迎来到华润e万家</span><a href="#">帮助中心</a>
+			</div>
+		</div>
+		<div class="pad">
+			<div class="shopcar-top">购物车<a href="#">继续购物></a></div>
+			<div class="car-list">
+				<table id="cartable">
+					<thead class="head" style="text-space-collapse: 0;">
+						<th><input type="checkbox" id="all"/>全选</th>
+						<th class="shop">商品</th>
+						<th>规格属性</th>
+						<th>单价</th>
+						<th>重量</th>
+						<th>数量</th>
+						<th>金额</th>
+						<th>操作</th>
+					</thead>
+					<tbody>
+						<tr class="ewj">
+							<td class="left"><input type="checkbox" />e万家</td>
+						</tr>
+						<tr class="clonetr">
+							<td class="left"><input type="checkbox"/></td>
+							<td >商品规格属性</td>
+							<td></td>
+							<th class="djia">￥8.5</td>
+							<td class="weigh">2.5kg</td>
+							<td><button class="remove">-</button><input type="text" class="sl" value="1"/><button class="add">+</button></td>
+							<td class="money"><span></span></td>
+							<td ><button class="cleartr">删除</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="car-foot">
+				<!--<label><input type="checkbox" />全选</label>-->
+				<div>
+					<div class="count"><P>总计:<span class="first">￥0</span></P>优惠:<span>￥0</span></div>
+					<div class="weight">总重量<span>0Kg</span></div>
+					<div class="goods">已经选中<span>0</span>件商品</div>	
+				</div>
+			</div>
+			<div class="car-bottom">商品总价(不含运费):<span>￥0</span><button>结算</button></div>
+		</div>
+		<div class="bottom-copy">
+			<ul>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li class="clear"><a href="#">触屏版</a></li>
+			</ul>
+			<p>Copyright@华润万家有限公司 粤ICP备05036369号-4 ewj.com 版权所有</p>
+		</div>
+		
+	</body>
+</html>

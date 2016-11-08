@@ -1,0 +1,56 @@
+li{list-style: none;}
+a{color:red;}
+body{background-color:#ededed;}
+/*顶部CSS样式*/
+.login{width:1200px;height:80px;background-color:#f9f9f9;padding-top:20px;}
+.login > div{float:right;padding-top:20px;padding-right:20px;}
+.login > div span{display:inline-block;border-right:1px solid #999999;width:200px;margin-right:10px;}
+.login > div a{color:#444444;}
+
+.dl{margin: 0 10px;padding:0 20px;padding-top:10px;width:1060px;height:450px;margin-top:20px;background-color:white;}
+.dl > span a{display: inline-block;float:right;}
+.dl > div{margin-top:10px;border-top:1px solid #cccccc;}
+.dl > div form{margin-left:250px;}
+.dl > div form > p .lab{display: inline-block;width:100px;text-align: right;}
+.dl > div form input{width:330px;height:30px;}
+.dl > div form .small{width:120px;}
+.dl > div form .yzm-tab{font-size:12px;}
+.dl > div form .yzm-tab button{border:none;width:70px;height:25px;}
+.dl > div form .revice{width:15px;height:15px;margin-left:105px;}
+.dl > div form .over{margin-left:105px;width:330px;height:30px;background-color:#D83A3B;border:none;font-size:22px;color:white;}
+/*购物车的内容CSS样式*/
+.pad{width:1200px;}
+.shopcar-top{padding:0 50px;margin:20px auto;width:1000px;height:50px;background-color:white;line-height: 50px;}
+.shopcar-top a{display: inline-block;float:right;}
+
+.car-list{width:1100px;margin:0 auto;}
+.car-list table{background-color:white;}
+.car-list table > tbody{width:1100px;background-color:white;text-align: center;} 
+.car-list table .head{width:1100px;background-color:#AAAAAA;}
+.car-list table .head th{width:120px;border:none;color:#848484;padding:8px 0;}
+.car-list table .head .shop{width:300px;}
+.car-list table tbody .ewj{height:40px;}
+.car-list table tbody .left{text-align: left;padding-left:30px;width:0;}
+.car-list table tbody > tr{height:100px;}
+.car-list table tbody > tr .sl{width:40px;height:25px;text-align:center;}
+.car-list table tbody > tr button{margin:3px 3px;font-size:18px;margin-top:3px;border:none;background-color:white;}
+.money span{display:inline-block;width:100px;}
+.goods span{display:inline-block;width:20px;text-align:center;}
+.weight span{display:inline-block;width:60px;text-align:center;}
+.count span,.car-bottom span{display:inline-block;width:80px;text-align: center;}
+.cleartr{border:none;background-color:white;}
+.car-foot{width:1000px;margin:auto;padding:0 50px;padding-top:30px;height:50px;}
+.car-foot div{float:right;}
+.car-foot .count p{margin:0;margin-bottom:10px;}
+.car-foot span{color:#D83A3B;}
+.car-foot .weight{padding:0 10px;height:20px;}
+.car-foot .goods{padding:0 10px;height:20px;border-right:1px solid #666666;}
+.car-bottom{margin:auto;width:1100px;height:50px;line-height: 50px;background-color:white;text-align: right;}
+.car-bottom span{margin:0 5px;color:#D83A3B;}
+.car-bottom button{border:none;background-color:red;color:white;font-size:25px;width:120px;height:50px;}
+/*底部CSS样式*/
+.bottom-copy .clear{border:none;}
+.bottom-copy{text-align:center;padding-top:20px;width:1200px;height:100px;background-color:#ededed;}
+.bottom-copy ul{margin-left:110px;}
+.bottom-copy ul li{float:left;border-right:1px solid #848484;padding: 0 10px;}
+.bottom-copy p{color:#aaaaaa;font-size:14px;}

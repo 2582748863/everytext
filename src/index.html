@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>华润e万家</title>
+		<link type="text/css" href="css/style.css" rel="stylesheet">
+	</head>
+	<body>	
+		<script type="text/javascript" src="js/jquery-1.12.0.js" ></script>
+		<div class="header"></div>
+		<!--商品列表和轮播图-->
+		<div id="top-list">
+			<ul class="list-tab">
+				<li><a href="#">Enjoy City</a></li>
+				<li><a href="#">跨境购</a></li>
+				<li><a href="#">产地直采</a></li>
+				<li><a href="#">政企阳光采购频道</a></li>
+			</ul>
+			<div class="carousel">
+				<ul class="pic"><!--carousel--轮播-->
+					
+				</ul>
+				<ul class="btn">
+					
+				</ul>
+			</div>
+			<div id="top-listl">
+				<ul class="list">
+					<li class="goods-kind"><span>三</span>商品分类</li>
+					<li class="cdzc"><a href="#"><img src="css/img/list1.png"/>产地直采</a></li>
+					<li class="slgs"><a href="#"><img src="css/img/list2.png"/>时令果蔬</a></li>
+					<li class="rqdp"><a href="#"><img src="css/img/list3.png"/>肉禽蛋品</a></li>
+					<li class="schx"><a href="#"><img src="css/img/list4.png"/>水产海鲜</a></li>
+					<li class="rpmd"><a href="#"><img src="css/img/list5.png"/>乳品面点</a></li>
+					<li class="lygh"><a href="#"><img src="css/img/list6.png"/>粮油干货</a></li>
+					<li class="lsjy"><a href="#"><img src="css/img/list7.png"/>零食酒饮</a></li>
+					<li class="myhh"><a href="#"><img src="css/img/list8.png"/>母婴呵护</a></li>
+					<li class="ghmz"><a href="#"><img src="css/img/list9.png"/>个护美妆</a></li>
+					<li class="jjry"><a href="#"><img src="css/img/list10.png"/>家居日用</a></li>
+					<li class="cfdj"><a href="#"><img src="css/img/list11.png"/>厨具电器</a></li>
+					<li class="dftc"><a href="#"><img src="css/img/list12.png"/>地方特产</a></li>
+				</ul>
+				<div id="list-select">
+					
+				</div>
+			</div>
+		</div>
+		<div class="baner-bg">
+				<p>鲜货到<span>e万家生鲜精选</span></p>
+				<ul class="baner-a">
+					<li id="baner-th"><span>特惠</span>送礼及自然佳品<br/>纯正协调，余味悠长</li>
+					<li class="kc"><p>库存</p><div><span class="jdt-a"></span></div></li>
+					<li><img src="img/baner1.jpg"><p>【全国配送】52度剑南醇</p></li>
+					<li class="btn">￥128.00<a href="#"></a></li>
+				</ul>
+				<ul class="baner-a">
+					<li id="baner-th"><span>特惠</span>土饲料喂养，猪种优良<br/>优质鲜美，优香浓厚</li>
+					<li class="kc"><p>库存</p><div><span class="jdt-b"></span></div></li>
+					<li><img src="img/baner2.jpg"><p>壹号土猪上肉(约300g/盒)</p></li>
+					<li class="btn">￥12.00<a href="#"></a></li>
+				</ul>
+				<ul class="baner-a">
+					<li id="baner-th"><span>特惠</span>优质水养，精心培养<br/>品种优良，肉香质美</li>
+					<li class="kc"><p>库存</p><div><span class="jdt-c"></span></div></li>
+					<li><img src="img/baner3.jpg"><p>【全国配送】精选海虾</p></li>
+					<li class="btn">￥280.00<a href="#"></a></li>
+				</ul>
+			<div class="baner-cj">
+				<ul>
+					<li class="time">抢购剩余时间:<span></span></li>
+					<li><img src="img/baner3.jpg"/></li>
+					<li class="mc"><p>优质海虾</p><del><b>原价:￥280.00</b></del><span>现价只要￥98</span></li>
+					<li class="kc">库存仅剩余:<span>2000</span></li>
+					<li class="btn"><a href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+	<script src="js/top-a.js"></script>
+	<script src="js/timedjs.js"></script>
+	<script>
+		var time=document.getElementsByClassName('time')[0].getElementsByTagName('span')[0];
+		var target="2016-9-20 0:0:0";
+		djs(time,target);
+		$('.footer').load('bottom.html');
+		$('.header').load('top.html');
+	</script>
+</html>

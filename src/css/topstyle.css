@@ -1,0 +1,22 @@
+a{text-decoration:none;color:#666666;}
+li{list-style:none;}
+.top-link ul,.top-content,#top-list ul{margin:0;padding:0;}
+#top-barrage a img{width:1200px;}
+.top-content{width:1200px;}
+.wordColor-red ,.wordColor-red a,.shop-car>span span{color:red;}
+.top-link span{line-height:16px;display: inline-block;}
+.top-link a{float:left;text-align: center;line-height:25px;}
+.top-dl{border-right:1px solid #cccccc;line-height: 25px;width:50px;display: block;}
+.top-zc{line-height:25px;width:50px;display: block;}
+.top-link ul{margin-left:800px;overflow:hidden;width:500px;}
+.top-link ul li{float:left;border-right:1px solid #cccccc;line-height:16px;}
+.top-link ul li a{margin:0 10px;}
+#my-dd{border-right:none;}
+
+.findshop{width:1200px;height:80px;padding-top:50px;background-color:#f7f7f7;}
+.findshop img,.find-car,.shop-car{float:left;}
+.find-goods{float:left;width:500px;position:relative;margin:0 100px;}
+.find-goods input {width:500px;height:30px;}
+.find-goods img{position:absolute;right:0;top:5px;}
+.shop-car{width:150px;}
+.shop-car>span{margin-top:13px;display:block;color:#666666;}

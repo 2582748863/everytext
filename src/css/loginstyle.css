@@ -1,0 +1,31 @@
+li{list-style: none;}
+a{text-decoration: none;}
+body{background-color:#ededed;}
+/*顶部CSS样式*/
+.login{width:1200px;height:80px;background-color:#f9f9f9;padding-top:20px;}
+.login > div{float:right;padding-top:20px;padding-right:20px;}
+.login > div span{display:inline-block;border-right:1px solid #999999;width:200px;margin-right:10px;}
+.login > div a{color:#444444;}
+/*登录框CSS样式*/
+
+.dl{margin: 0 50px;padding:0 20px;padding-top:10px;width:1060px;height:400px;margin-top:20px;background-color:white;}
+.dl a{display: inline-block;float:right;}
+.dl > div{margin-top:10px;padding-top:20px;border-top:1px solid #cccccc;}
+.dl > div > div{float:left;}
+.dl > div .input input{line-height:60px;height:40px;width:350px;margin:12px 0;}
+.dl > div > form{position:relative;display: block;float:left;margin-left:20px;padding-top:11px;}
+.dl > div img{vertical-align: top;float:left;margin-left:50px;}
+.dl > div .word{margin-left:120px;line-height:55px;}
+.dl > div > form .yzm{width:120px;}
+.dl > div > form .yzm-btn{border:none;width:80px;height:40px;vertical-align: middle;}
+#but{position: absolute;left:130px;top:165px}
+.dl > div > form .remember{width:12px;height:12px;}
+.dl > div > form a{position:relative;top:8px;color:#666666;}
+.dl > div > form > button{width:350px;height:40px;background-color:red;border:none;}
+/*底部CSS样式*/
+.bottom-copy{}
+.bottom-copy{text-align:center;padding-top:20px;width:1200px;height:100px;background-color:#ededed;}
+.bottom-copy ul{margin-left:110px;}
+.bottom-copy ul li{float:left;border-right:1px solid #848484;padding: 0 10px;}
+.bottom-copy p{color:#aaaaaa;font-size:14px;}
+ 

@@ -1,0 +1,68 @@
+a{text-decoration:none;}
+li{list-style:none;}
+body{background-color:#ededed;}
+#top-list .list{ background-color:white;position:absolute;top:-50px;left:0;}
+#top-list .list .goods-kind{text-align:center;height:50px;background:#d83a3b;color:white;line-height:50px;}
+#top-list .goods-kind span{font-size:25px;margin:0 10px;}
+#top-list .list li{height:40px;width:250px;}
+#top-list .list li a{color:#cccccc;display:block;width:250px;height:40px;line-height:40px;text-align: center;}
+#top-list .list li img{height:40px;height:40px;vertical-align: middle;margin-right:10px;}
+
+#top-list .list,#top-list .list-tab,#top-list .carousel{float:left;}
+#top-list .list-tab li{text-align:center;margin-top:5px;width:200px;height:45px;line-height:45px;float:left;background-color:#3c3c3c;}
+#top-list .list-tab{padding:0;position:absolute;top:0;left:250px;}
+#top-list .list-tab .list-tabbg{background-color:#000000;}
+
+#top-list{ overflow:hidden;position:relative;width:1200px;height:600px;}
+#top-list .pic{width:800px;height:500px;}
+#top-list .pic li{display:none;}
+
+#top-list .btn {position:absolute;left:300px;bottom:20px;}
+#top-list .btn li{float:left;display: inline-block;width:20px;height:20px;margin:0 20px;background-color:#cccccc;text-align:center;}
+#top-list .btn li a{color:white;}
+#top-list .btn .active{background-color:#ff0000;}
+#top-list .carousel{width:800px;height:480px;position:absolute;top:50px;left:250px;}
+#top-list .carousel .pic li{width:800px;height:480px;position:absolute;top:0;left:0;}
+#top-list .carousel .pic li img{width:800px;height:480px;}
+
+//向右的三角符号 三角triangle
+#top-list .list li a span{}
+#top-list .list li a span{margin-left:10px;display:inline-block;width:0;height:0;border:5px solid transparent;border-left:5px solid white;}
+#list-select{position:absolute;top:0px;left:250px;width:500px;height:480px;background-color:white;opacity: 0.95;display:none;}
+#top-listl{position:absolute;top:50px;left:0;width:750px;height:480px;}
+//添加CSS属性实现下拉列表显示
+#list-select{padding:20px 20px;}
+#list-select a{color:#aaaaaa;margin:10px 0px;font-size:16px;margin-left:15px;display:inline-block;}
+
+#list-select span{margin-left:10px;display:inline-block;width:0;height:0;border:5px solid transparent;border-left:5px solid #cccccc;}
+#list-select li .aa{border-right:1px solid #cccccc;font-size:14px;line-height:22px;text-align:center;padding-right:10px;}
+
+//鲜货到区域共用的CSS
+.baner-bg{}
+.baner-bg {width:1200px;height:580px;background-color:#ffe8c6;position: relative;}
+.baner-bg > ul{float:left;width:260px;height:430px;background-color:white;margin:0 10px;padding:20px 5px;}
+.baner-bg > p {font-size:30px;color:#de0000;margin-left:10px;margin-top:10px;}
+.baner-bg > p span{font-size:15px;color:#de0000;margin-left:10px;}
+.baner-a li {font-size:16;color:#333333;}
+.baner-a li > span{text-align:center;display: block;width:30px;height:40px;background-color:red;position:absolute;top:0;left:0;}
+.baner-a #baner-th{padding-left:50px;position:relative;}
+.baner-a .kc{position:relative;}
+.baner-a li > div{position:absolute;top:5px;left:50px;width:80px;height:10px;border:1px solid #cccccc;}
+.baner-a li div > span{display:block;height:11px;background-color:red;}
+.baner-a .btn{font-size:30px;color:#df0000;background-color:white;}
+.baner-a .btn a{ display:inline-block;border:0;margin-left:40px;width:100px;height:29px;background:url(img/btn-qg.png) no-repeat;}
+.baner-a .jdt-a{width:80%;}
+.baner-a .jdt-b{width:40%;}
+.baner-a .jdt-c{width:95%;}
+//限时抢购
+.baner-cj{}
+.baner-cj{padding:0 20px;text-align:center;width:260px;height:580px;position:absolute;top:0;right:0;background-color:white;}
+.baner-cj li{float:left;margin:0 auto;}
+.baner-cj ul{padding:0;overflow:hidden;margin:0 auto}
+.baner-cj .time{width:260px;background-color:red;margin:30px 0;}
+.baner-cj .btn a{ display:inline-block;border:0;margin-left:40px;width:100px;height:29px;background:url(img/btn-qg.png) no-repeat;} 
+.baner-cj .mc{padding-left:30px;margin:20px 0;}
+.baner-cj .mc span{margin-left:10px;}
+.baner-cj .btn{padding-left:50px;margin-top:20px;}
+.baner-cj .kc{padding-left:75px;}
+.baner-cj .kc span{color:red;font-size:20px;}

@@ -1,0 +1,25 @@
+li{list-style: none;}
+a{text-decoration:none;}
+.bottom-baner,.bottom-list{margin:0;padding:0;}
+.bottom-baner{background-color:#ededed;width:1200px;height:100px;padding-top:50px;padding-bottom:20px;}
+.bottom-baner > li{padding:10px 50px;border-right:1px solid #AAAAAA;float:left;}
+.bottom-baner li img{margin-right:20px;}
+.bottom-baner li span{display: inline-block;line-height: 22px;}
+.bottom-baner .clear,.bottom-copy .clear{border:none;}
+.bottom-list{padding-top:20px;background-color:#ededed;width:1200px;height:220px;border-top:1px solid #AAAAAA;border-bottom:1px solid #AAAAAA;}
+.bottom-list > li{float:left;margin:0 33px;}
+.bottom-list > li ul li{line-height:30px;}
+.bottom-list > li ul li a{color:#848491;}
+.bottom-list > li ul li h2{font-size:20px;color:#333333;margin-bottom:10px;}
+
+.qrcode{border-bottom:1px solid #AAAAAA;width:1200px;height:150px;padding-top:30px;background-color:#ededed;}
+.qrcode div{float:left;height:130px;}
+.qrcode div span{display:inline-block;margin-left:20px;line-height:50px;}
+.client{margin-left:200px;}
+.wechat{margin-left:250px;}
+.qrcode div img{vertical-align:top;}
+.qrcode div h4{margin:0;line-height:30px;}
+.bottom-copy{text-align:center;padding-top:20px;width:1200px;height:100px;background-color:#ededed;}
+.bottom-copy ul{margin-left:110px;}
+.bottom-copy ul li{float:left;border-right:1px solid #848484;padding: 0 10px;}
+.bottom-copy p{color:#aaaaaa;font-size:14px;}
